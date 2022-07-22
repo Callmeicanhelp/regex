@@ -21,31 +21,45 @@ Briefly summarize the regex you will be describing and what you will explain. In
 - [Look-ahead and Look-behind](#look-ahead-and-look-behind)
 
 ## Regex Components
+Matching an html tag:  /^<([a-z]+)([^<]+)*(?:>(.*)<\/\1>|\s+\/>)$/
 
 ### Anchors
+^   Starts the string
+<   Matches the character with the index             
 
 ### Quantifiers
+a*  greedy quantifier
+a*? lazy quantifier
 
 ### OR Operator
+a|b a or b operator
 
 ### Character Classes
+[a-z]   Matches any characters between a and z, including a and z.
 
 ### Flags
+A   anchor
 
 ### Grouping and Capturing
+([a-z]+) first capturing group
 
 ### Bracket Expressions
 
 ### Greedy and Lazy Match
+a*  greedy quantifier
+a*? lazy quantifier
+U   Ungreedy
 
 ### Boundaries
-
+\b  word boundary
+\B  non-word boundary
 ### Back-references
 
 ### Look-ahead and Look-behind
+(?(?=...)yes|no)    look ahead
+(?(?<=...)yes|no)   look behind
 
 ## Author
-
 Daniel Warren II
 Dev in training
 GitHub: Callmeicanhelp@github.com

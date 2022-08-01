@@ -1,6 +1,6 @@
-# Title (replace with your title)
+# HTML TAG MATCHING
 
-Introductory paragraph (replace this with your text)
+
 
 ## Summary
 
@@ -44,6 +44,7 @@ A   anchor
 ([a-z]+) first capturing group
 
 ### Bracket Expressions
+This section is not used by this regex.
 
 ### Greedy and Lazy Match
 a*  greedy quantifier
@@ -53,7 +54,9 @@ U   Ungreedy
 ### Boundaries
 \b  word boundary
 \B  non-word boundary
+
 ### Back-references
+This section is not used by this regex.
 
 ### Look-ahead and Look-behind
 (?(?=...)yes|no)    look ahead
